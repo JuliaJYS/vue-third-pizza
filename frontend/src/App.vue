@@ -1,4 +1,18 @@
 <template>
+  <app-layout>
+    <home-view />
+  </app-layout>
+</template>
+
+<script setup>
+import AppLayout from "@/layouts/AppLayout.vue";
+import HomeView from "@/views/HomeView.vue";
+</script>
+
+<style lang="scss">
+@import "@/assets/scss/app.scss";
+</style>
+<!-- <template>
   <div class="main__wrapper">
     <div class="main__header">
       <img src="@/assets/img/logo.svg" width="300" height="47" alt="V!U!E! Pizza" />
@@ -59,4 +73,4 @@ body {
   }
 }
 
-</style>
+</style> -->
